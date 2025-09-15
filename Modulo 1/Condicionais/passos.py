@@ -1,9 +1,9 @@
-nome = input("Digite seu nome: ")
-passos = float(input("digite seus passos: "))
+nome = input("digite seu nome:")
+passos = int(input("Digite quantos passos foi dado:"))
 
-if passos > 8000:
-    print("Ótimo, você se movimentou bem hoje. ")
+if passos >= 7500:
+    print("Ando bem")
 else:
-    print("Tente se movimentar mais amanhã! ")
+    print("ande mais amanha")
 
-print(f"o nome é: {nome}\nE o passo é: {passos}")
+print(f"nome da pessoa {nome} e {passos}")
